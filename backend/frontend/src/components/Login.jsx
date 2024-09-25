@@ -37,7 +37,7 @@ function Login() {
   };
   return (
     <>
-      <div className="flex h-screen items-center justify-center">
+      <div className="flex h-screen items-center justify-center border-black rounded-md">
         <form
           onSubmit={handleSubmit(onSubmit)}
           className="border border-white px-6 py-2 rounded-md space-y-3 w-96"
